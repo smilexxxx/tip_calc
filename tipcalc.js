@@ -24,7 +24,7 @@ const calculateBill = () => {
   const perPersonTotal = total / numberOfPeople;
 
   // update the perPersonTotal on DOM & show it to user
-  perPersonTotalDiv.innerText = `$${perPersonTotal.toFixed(2)}`;
+  perPersonTotalDiv.innerText = `Ksh${perPersonTotal.toFixed(2)}`;
 };
 
 // ** Splits the bill between more people **
